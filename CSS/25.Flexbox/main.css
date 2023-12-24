@@ -1,0 +1,6 @@
+
+.flex{
+    display: flex;
+    flex-direction: column-reverse;/*row deja el contenido como esta,row-reversede derecha a izquierda,column-reverse de arriba a abajo pero al reves */
+
+}

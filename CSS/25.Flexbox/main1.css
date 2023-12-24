@@ -1,0 +1,18 @@
+body {
+    width: 200px;
+}
+
+.flex{
+    display: flex;
+    /* flex-wrap: wrap-reverse; nowrap no hace nada, wrap toma el ultimo contenido y lo agrupa */
+    flex-flow: row wrap;/*la direccion de row con un wrap*/
+    justify-content: flex-start;/*flex-start el valor por defecto, flex end todo el contenido a la derecha, flex center alinea el contenido al centro, space-between el contenido se empieza a separar menos al comienzo y al final, space-around deja espacio al doble que en el centro, space-evenly el spacio del comienzo y el final es el mismo, */
+    /* align-items: flex-start; flex-start es el valor por defecto,flex-end es bastante similar y se desplaza hacia abajo, center todo en el centro,  stretch estire los elementos para que utlizen todo nuestros contenedores */
+    height:200px;
+    align-content: flex-start;/*flex-start valor por defecto, flex-end contenido se mueve hacia el final del contenedor, center lleva todo el contenido al centro,stretch utiliza todo el cotenido para distribuir sus elementos, space-between les va a dejar un espacio entre medio, space-around  tiene un spacio al coienzo al final y en medio, space-evenly tambien funciona y hace lo mismo  */
+
+}
+
+.red{
+    background-color: red;
+}

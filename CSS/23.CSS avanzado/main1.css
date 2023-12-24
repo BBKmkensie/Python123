@@ -1,0 +1,13 @@
+body{
+    background-color: #eee;
+}
+/*sombreas*/
+.fondo {
+    /*
+    background-image: linear-gradient(to top, red, blue);/*se comienza con  un color y se termina con otro direccion, color1, color2, --tambien se puede colocar las direcciones en grados -45deg*/
+
+    background-image: linear-gradient(0deg, rgba(255,0,0,0.2), tomato); /*si le quieres agregar transparencia*/
+
+    background-image: repeating-linear-gradient(0deg, rgba(255,0,0,0.2)10%, tomato 20%); /*se repite el color y el porcentaje le da el fin*/
+
+}

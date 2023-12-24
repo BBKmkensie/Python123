@@ -1,0 +1,39 @@
+body{
+    background-color: #eee;
+}
+
+/*fondos con gradientes*/
+.fondo {
+    /*
+    height: 400px;
+    background: green url(https://placekitten.com/200/300) no-repeat left top fixed;/*todas estas propiedades en una sola linea*/
+    /*
+    background-size: cover;
+    
+    /*
+    background-color: green; /*podemos utulizar codigo exagesimal y tambien palabras en ingles green, red*/
+    /*
+    background-image: url(https://placekitten.com/200/300);/*ocupa todo el contenido que tiene nuestra etiqueta html,comola
+    imagen es pequeña se repite varias veces*/
+    /*
+    background-repeat: no-repeat; /*si quiero que no se repita, siq uiero q se repita en el eje x sera repeat-x o reapeat-y*/
+    /*
+    background-position: left top ;/*le indico desde donde quiero que se renderize, parte de top left arriba ala izquierda, right bottom  a la derecha abajo, right top arriba a la derecha, left bottom abajo a la izquida */
+    /*
+    background-attachment: scroll;/*la imagen baja con el scroll*/
+    /*
+    background-size: cover;
+    */
+
+
+    /*colores en detalle y opacidad*/
+    /*
+    background-color: rgba(0, 0, 0); /*rojo verde azul 0 final opacidad 255 maximo color */
+    /*255,255,255,1 color blanco, 0 es la asencia de color y 255 es el maximo tinte de color*/
+    /*todos los numeros intermediosson validos*/
+    /*rgb(255,0,0,0.2)rojo verde(0,255,0,0.2) azul(0,0,255,0.2) con apasidad del 20%*/
+
+    background-color: hsl(255, 100%, 50%, 0.3); /*hsl (Hue matriz) sepude de 0 a 360,0 seria rojo 120 verde 240 azul, Saturación (Saturation) se puede con porcentaje, Luminosidad (Lightness)tambien con porcentaje,el cuarto numeor es alfa osea indica una solides */
+    opacity: 0.9; /*se puede colocar opacidad 0 sin opacidad y 1 todo solido*/
+
+}

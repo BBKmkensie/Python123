@@ -1,0 +1,25 @@
+body {
+    background-color: #eee;
+
+
+}
+
+/* P{
+
+    max-width: 350px;
+    background-color: #f00;
+    margin:auto;
+    position:relative; /*relative posicion relativa o static, tambien fixed deja el contenido fijo no importa la cantida de contenido*/
+    /* left: 15px; /*posiciones q sr pueden mover*/
+    /* top:0px;
+    bottom:0px; */
+
+/* } */ 
+
+#over{
+    width: 100px;
+    height: 100px;
+    overflow: scroll;/*hidden:todo el contenido que no se alcanza a mostrar queda oculto, scroll: con scroll subes y bajas el contenido,tambien esta auto*/
+    /*overflow-x scroll para el eje x tambien es lo mismo para le  eje y*/
+
+}

@@ -1,0 +1,32 @@
+
+body {
+    background-color: #eee;
+}
+
+.grid {/*grid implicita */ 
+    display: grid;
+    grid-template-areas: "header header"
+                        "content sidebar"
+                        "footer footer";
+    grid-template-rows: 150px 1fr 100px;
+    grid-template-columns: 1fr 200px;
+    grid-auto-rows: 140px;
+    grid-auto-flow: row;/*row arriba a abajo, columns de izquierda a derecha*/
+    /* justify-items: stretch;center todo al centro,start el valor por defecto, end todo a la derecha, stretch estira el item ocupa todo el espacio */
+    /* align-items: center; center todoel contenudo hacia abajo algo centrado,start todo el contenido hacia arriba , end todo al final, stretch se estira para asignar lo que le corresponde se le asigna por defecto  */
+}
+
+.red {
+    background-color: red;
+}
+
+
+.header {
+    grid-column: col-inicio / col-fin 3;
+    grid-row: row-inicio / row-fin 3;
+}
+
+.item-1{
+    justify-self: center;/*justify se alinea de manera vertical donde mas estime conveniente, center centro a la izquierda, con stretch utiliza toda el area, con end se va a ala derecha*/
+    align-self: stretch;/*align de manera vertical, center se a linea en el centro, end se desplaza abajo, start floja el elemento|*/
+}

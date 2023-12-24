@@ -1,0 +1,12 @@
+body{
+    background-color: #eee;
+}
+
+.box {
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3); /*la sombra el primero son 2 pixeles hacia abajo y 2 px a la derecha y el tercero es para ver que tan borroso quiero q se vea, insert sombra por dentro, inset se ve undido*/
+}
+
+.text {
+    color:white;
+    text-shadow:0px 1px 2px rgba(255,0,0,0.39);/*opx a la derecha, 1px hacia abajo la sobra 2px se difumina la sombra, y luego el color*/
+}

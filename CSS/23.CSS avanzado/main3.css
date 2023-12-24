@@ -1,0 +1,27 @@
+body{
+    background-color: #eee;
+}
+
+.box{
+    position: relative;
+    left:50px;
+    top:50px;
+    height: 100px; /*alto*/
+    width: 100px;/*ancho*/
+    background-color: white;
+    box-shadow: 1px 2px 2px rgb(0,0,0,0.2);/*sombra negra con 0.2 de transparencia*/
+    /*para el transform debe ser con la propieded de display block, lo traen los div*/
+    /* transform: rotate(-45deg); */
+    /* transform: translate(50px, 100px);el primero es para ver cuanto se mueve en el eje x y el otro en el y */
+    /* transform: scale(2,3);que tan ancho y alto */
+    /* transform: scaleX(1.05);lo estira a la izquierda */
+    /* transform: skewx(25deg);elemento como si estubiera acostandose */
+    /* transform: rotateX(60deg);se puede ocupar x, y, z 3 dimensiones */
+    transition: 0.3s;
+    transition-delay: 0.3s 0.5s;
+}
+
+.box:hover {
+    transform: scale(1.05, 1.05);
+    background-color: rgba(0,0,0,0.1);/*color negro*/
+}

@@ -1,0 +1,39 @@
+/* body {
+    background-color: #eeeeee; /* para el fondo, # estaen exageximal, 0-9, a-f 6 caracteres */
+    /* color: #ff0000; color para a letra */
+/* } 
+
+/* ffffff-blanco */
+/* fff000-amarillo */
+/* 000000-negro */
+/* eeeeee-gris-suave */
+/* #ff0000 un rojo */
+/* #00ff00 un verde */
+/* #efefef entre un blaco o gris */
+/* Comentario */
+
+body {
+    background-color:#eee ; /* los colores hexageximales tambien se pueden hacer con 3 letras si son de la misma letra */
+}
+
+.caja {
+    margin: 8px;/* margin es un border invisible que rodea la caja pero por fura */
+    padding: 8px;/* se agranda la caja,padding es un border invisible que rodea el contenido pero por dentro de la caja */
+    /* la mejor manera de notar la diferencia es utilizando background-color */
+    border-style: solid  ;/* otros estilos: dashed es una linea punteada, solid un line a
+    negra, dotted un linea con puntos mas cortos, double lineas dobles, groove un border 
+    con un stilo blanco, ridge como el estilo anterior pero invertido, inset tratda de hacer
+    que el contenido este undido, outset el efecto contrario al anterior,hidden es oculto,
+    , tambien se puede hacer un mix dotted dashed solid double   */
+    border-width: 8px;/* el hancho del border *//* border nos permite hacer una separacion entre el margen y padding */
+    border-color: #faa;/* nos permite indicar el color para el border */
+    /* border-top= para el de arrbia, botton-botton= el de abajo, border-right: derecha*/
+    border-left: 6px solid #afa;/* el ancho del border izquierdo y lo pinta */
+    border-radius: 4px;/* nos permite redondear los bordes */
+    height: 100px; /* la altura */   
+    width: 100px; /* el ancho */
+    color: #5757; /* cambia el color de la letra */
+    
+
+    background-color: #aaf;
+}

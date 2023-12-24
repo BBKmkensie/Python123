@@ -1,0 +1,24 @@
+/* body {
+    background-color: #eeeeee; /* para el fondo, # estaen exageximal, 0-9, a-f 6 caracteres */
+    /* color: #ff0000; color para a letra */
+/* } 
+
+/* ffffff-blanco */
+/* fff000-amarillo */
+/* 000000-negro */
+/* eeeeee-gris-suave */
+/* #ff0000 un rojo */
+/* #00ff00 un verde */
+/* #efefef entre un blaco o gris */
+/* Comentario */
+
+body {
+    background-color:#efefef ;
+}
+
+#parrafo { /* lo seleccionamos por el id, el elemento tienen que ser unico */
+    color: #ff0000;
+}
+.etiqueta {/* lo seleccionamos por la clase, podemos tener mas elementos con esta clase */
+    color: #00ff00;
+}

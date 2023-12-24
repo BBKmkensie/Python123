@@ -1,0 +1,30 @@
+body {
+    width: 200px;
+}
+
+.flex{
+    display: flex;
+    /* flex-wrap: wrap-reverse; nowrap no hace nada, wrap toma el ultimo contenido y lo agrupa */
+    flex-flow: row wrap;/*la direccion de row con un wrap*/
+    height:200px;
+
+
+}
+
+.red{
+    background-color: red;
+}
+
+.primero{
+   flex-grow: 1;/*siempre va a ser 0, a lo menos que no le asigne lo contrario*/
+   flex-basis: 120px;/*le da un ancho inicial a nuestro elemento y el resto del contenido se reparte por el flex-grow*/
+   /* flex: 1 120px; otra manera de escribir el flex-grow y flex-basis no se puede con un solo numero solo con dos */
+}
+
+.tercero{
+  flex-grow: 2;/*ocupa el espacio hasta dos veces que ocupa el primero*/
+  align-self:auto;/*auto lo deja arriba, flex- start el contenido sigue arrriba, flex-end lleva el contenido abajo, center centra el contenido, baselinenos deja todo en la base, stretch toma el item y lo va a estirar y ocupara todo el espacio disponible*/
+}
+.segundo{
+    flex-grow: 1;/*ocupa las mismas unidades que el primero*/
+}

@@ -1,0 +1,52 @@
+
+body {
+    background-color: #eee;
+}
+
+.dropdown-btn {
+    background-color: #4CAF50; /*Color de fondo*/
+    color: white;/* color de la letra*/
+    padding: 16px;/*una especie de ancho o relleno del color verde*/
+    font-size:16px;/*tamaño de la funte*/
+    border:none;/*se elimina el border por defecto en html*/
+    cursor: pointer;/*pasamos el mouse por encima y se ve la manito*/
+
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block
+}
+
+/*que no se vea hasta pasar el mouse por encima*/
+.dropdown-content{
+    display:none;/*none elimina los links, block los deja*/
+    position: absoluta;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 4px 8px  rgba(0,0,0,0.2);
+}
+
+/*que se vean hacia abajo*/
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+}
+
+/*todos los link tendran hover, hover acción de colocar el cursor del ratón sobre un elemento, como un enlace o un botón, sin hacer clic en él. Esto a menudo activa un efecto, como cambiar el color o mostrar información adicional*/
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+}
+
+/*A toda la lista y esten sobre el boton cambiara de color*/
+.dropdown:hover .dropdown-btn {
+    background-color: #3E8E41;
+}
+
+/*muestra los link cuando este el cursor sobre dropdown*/
+.dropdown:hover .dropdown-content{
+    display: block;
+
+}

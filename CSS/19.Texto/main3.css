@@ -1,0 +1,33 @@
+body{
+    background-color: #eee;
+}
+
+/* tambien se le puede cambiar numero por letra:red */
+p{
+    font-family: "Times New Roman";
+    font-weight: 500;
+    font-style: oblique;
+    font-size:20px;
+    color: #222fff; /* blue */
+    text-align: left ; /* nos alinea el texto a la izquierda al centro o la derecha */
+    /* right, left, center*/
+    /* text-decoration: underline; */
+    text-indent: 40px;/* texto se corre a la derecha identandolo */
+    line-height: 1.7;/* las lineas tienen un alto por ende la separacion de la
+    linea de arriba y abajo  */
+    word-spacing: 10px; /* Agrega espacio en las palabras q escribimos */
+    text-shadow: 1px 2px 2px rgba(a, a, a, 0.3 );/*agrega sombras a las letras, el primero a la derecha, el segundo abajo, trecera que tan difuso dse ve el otro el color */
+
+}
+ /*a{
+    text-decoration: underline;/* agrega decoracion, puedes sacar el subrayado del link */
+    /* ovenline=una linea arriba de la escritura
+       line-through= toma la linea y tacha el texto
+       underline= linea abajo del texto
+     */
+    /* text-transform: capitalize;/* uppercase todo en mayuscula, loercase todod minuscula*/
+    /* capitalize la primera con mayuscula */
+    /*letter-spacing: 3px; /* genera una separacion entre todas las letras */
+    
+  /*}
+

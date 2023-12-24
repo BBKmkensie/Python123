@@ -1,0 +1,83 @@
+body {
+    background-color: #eee;
+}
+
+ /* Para un estilo generico*/
+a { 
+    color:hotpink;
+    border-color: #d00;
+    border: solid 1px #d00;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 4px;
+}
+
+a:link {
+    color: pink;
+    text-decoration: under;
+}
+ /* */
+a:visited { 
+    color: white;
+}
+a:hover { 
+    color: white;
+    background-color: #f55;
+  
+}   
+
+a:active {
+    color: black;
+}
+
+/*Listas*/
+ /*selecciona un elemento dentro de otro elemnto */
+/* ul li  {
+    list-style-type: circle;
+    /*otros tiposson: square cuadrado, upper-roman numeros roamnos, lower-alpha de la a a la c */
+
+/* } */ 
+
+ul {
+    list-style-type: none; /*elimina los puntos de la lista*/
+    background-color: #fff; /*completamente blanco*/
+    border:solid 1px #ddd; /*un poco mas saturado*/
+    border-radius: 4px;
+    padding-left: 15px;
+
+
+}
+
+li{
+    border-bottom: solid 1px #ddd;; /*lineas en los elementos */
+    padding: 15px; /*para darle mas separacion*/
+}
+
+/*Tablas*/
+
+table{
+    width: 100%; /*todo el ancho disponible*/
+    background-color: white;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;/*una fila si la otra no, f2f2f2 un blanco mas oscuro*/
+
+}
+
+td{
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+table th {
+    background-color: #4CAF50;/*UN BUEN VERDADEE*/
+    color: white;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
